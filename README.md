@@ -1,2 +1,2 @@
-# sandaluca.herokuapp.com
+# sandaluca.cf
 Source for the wordpress blog/portfolio of Sanda Luca, Art Director.
