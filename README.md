@@ -1,2 +1,2 @@
 # sandaluca.cf
-Source for the wordpress blog/portfolio of Sanda Luca, Art Director.
+Source for Sanda Luca's website, Art Director.
