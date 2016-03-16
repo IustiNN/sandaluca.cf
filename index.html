@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
 
     <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
+    <script   src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -29,7 +30,7 @@
 
       <p>Sanda is super cool and mega fresh</p>
 
-      <div class="available">Available for hire</div>
+      <a href="mailto:sandacristinaluca@gmail.com" class="available"><span class="normal">Available for hire</span><span class="onHover">sandacristinaluca@gmail.com</span></a>
 
       <ul>
         <li><a href="http://facebook.com/sandukl" title="Follow Sanda on Facebook" target="_blank">Facebook</a></li>
@@ -39,6 +40,17 @@
       </ul>
 
     </div>
-
+    <script>
+      // $(document).ready(function() {
+      //   $('.available').on('mouseenter', function() {
+      //     $('.normal').fadeOut();
+      //     $('.onHover').fadeIn();
+      //   });
+      //   $('.available').on('mouseleave', function() {
+      //     $('.onHover').fadeOut();
+      //     $('.normal').fadeIn();
+      //   });
+      // });
+    </script>
   </body>
 </html>

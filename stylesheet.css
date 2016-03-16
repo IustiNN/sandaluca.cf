@@ -77,7 +77,8 @@ p {
 
 /* Style our 'available' and 'unavailable' classes */
 .available, .unavailable {
-  width: 60%;
+  display: block;
+  width: 80%;
   margin:10px auto 20px;
   border-radius: 3px;
   padding: 14px 0;
@@ -86,6 +87,33 @@ p {
 .available {
   color: #fff;
   background-color: #2ecc71;
+  text-align: center;
+  height: 30px;
+}
+
+.available span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.onHover {
+  opacity: 0;
+  transition: all .5s all;
+}
+
+.available:hover {
+  color: #fff;
+  transition: all .5s all;
+}
+
+.available:hover .normal {
+  display: none;
+}
+
+.available:hover .onHover {
+  opacity: 1;
+  transition: all .5s all;
 }
 
 .unavailable {
